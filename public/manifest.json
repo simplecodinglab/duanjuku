@@ -1,0 +1,49 @@
+{
+	"name": "短剧库 - 免费短剧资源搜索",
+	"short_name": "短剧库",
+	"description": "短剧库为您提供免费的短剧资源搜索服务，专注夸克网盘短剧。快速精准搜索，一键转存观看，轻松找到想看的短剧。",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#ffffff",
+	"icons": [
+		{
+			"src": "/icons/icon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "/icons/icon-256x256.png",
+			"sizes": "256x256",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "/icons/icon-384x384.png",
+			"sizes": "384x384",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "/icons/icon-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	],
+	"screenshots": [
+		{
+			"src": "/screenshot/home.png",
+			"sizes": "1280x720",
+			"type": "image/png",
+			"form_factor": "wide"
+		}
+	],
+	"orientation": "portrait-primary",
+	"scope": "/",
+	"lang": "zh-CN",
+	"categories": ["utilities", "productivity"],
+	"related_applications": [],
+	"prefer_related_applications": false
+}

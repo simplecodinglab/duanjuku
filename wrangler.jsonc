@@ -1,0 +1,43 @@
+// Cloudflare Workers 配置：短剧库
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"main": ".open-next/worker.js",
+	"name": "duanjuku",
+	"compatibility_date": "2026-08-01",
+	"compatibility_flags": [
+		"nodejs_compat",
+		"global_fetch_strictly_public"
+	],
+	"assets": {
+		"directory": ".open-next/assets",
+		"binding": "ASSETS"
+	},
+	"services": [
+		{
+			"binding": "WORKER_SELF_REFERENCE",
+			"service": "duanjuku"
+		}
+	],
+	"r2_buckets": [
+		{
+			"binding": "NEXT_INC_CACHE_R2_BUCKET",
+			"bucket_name": "duanjuku-opennext-cache"
+		}
+	],
+	"images": {
+		"binding": "IMAGES"
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "duanjuku",
+			"database_id": "7c59a63a-833e-4f52-ae2f-f514361b008a"
+		}
+	],
+	"vars": {
+		"SITE_NAME": "短剧库",
+		"QUARK_API": "https://quark-transfer.shensimple77.workers.dev",
+		"NEXT_PUBLIC_BASE_URL": "https://duanju.neeview.com",
+    "GA_ID": "G-BX07493XNF"
+	}
+}

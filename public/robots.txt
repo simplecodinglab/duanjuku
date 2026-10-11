@@ -1,0 +1,7 @@
+User-agent:*
+Disallow: /resource?*
+
+User-agent: *
+Allow: /
+
+Sitemap: https://duanju.neeview.com/sitemap.xml

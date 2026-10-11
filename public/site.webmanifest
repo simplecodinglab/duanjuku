@@ -1,0 +1,19 @@
+{
+  "name": "短剧库 - 免费短剧资源搜索",
+  "short_name": "短剧库",
+  "description": "短剧库是免费短剧资源搜索引擎，专注夸克网盘短剧搜索，一键转存观看",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["productivity", "utilities", "search"]
+}
